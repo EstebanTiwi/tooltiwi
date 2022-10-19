@@ -6,6 +6,7 @@ import Update from "./pages/Update";
 function App() {
   return (
     <div className="App">
+      <h1>INFOOOO</h1>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Bloques/>} />
