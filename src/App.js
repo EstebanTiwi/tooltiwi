@@ -7,13 +7,13 @@ function App() {
   return (
     <div className="App">
       <h1>INFOOOO</h1>
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
         <Routes>
           <Route path="/" element={<Bloques/>} />
           <Route path="/add" element={<Add/>} />
           <Route path="/update/:id" element={<Update/>} />
         </Routes>
-      </BrowserRouter>
+      {/* </BrowserRouter> */}
     </div>
   );
 }
