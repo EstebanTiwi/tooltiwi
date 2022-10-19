@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tooltiwi/static/css/main.16f899d3.css",
-    "main.js": "/tooltiwi/static/js/main.da572de6.js",
+    "main.js": "/tooltiwi/static/js/main.78a141e2.js",
     "static/js/787.cda612ba.chunk.js": "/tooltiwi/static/js/787.cda612ba.chunk.js",
     "index.html": "/tooltiwi/index.html",
     "main.16f899d3.css.map": "/tooltiwi/static/css/main.16f899d3.css.map",
-    "main.da572de6.js.map": "/tooltiwi/static/js/main.da572de6.js.map",
+    "main.78a141e2.js.map": "/tooltiwi/static/js/main.78a141e2.js.map",
     "787.cda612ba.chunk.js.map": "/tooltiwi/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16f899d3.css",
-    "static/js/main.da572de6.js"
+    "static/js/main.78a141e2.js"
   ]
 }
