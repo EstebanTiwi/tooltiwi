@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia&family=Roboto:ital,wght@0,700;1,300&display=swap');
+
+.container-all {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* titulo */
+h1 {
+    text-align: center;
+}
+
+/* NAVBAR- */
+.navb {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.searchinput {
+    padding: 10px;
+    outline: 0;
+}
+/* -NAVBAR */
+
+/* btn style */
+.btn {
+    border: none;
+    color: white;
+    padding: 12px 25.6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.agregarBtn {
+    background-color: #4CAF50; /* Green */
+}
+.eliminarBtn {
+    background-color: #f44336; /* Red */
+} 
+.visitarBtn {
+    background-color: #008CBA; /* Blue */
+} 
+.editarBtn {
+    background-color: #FFC107; /* Yellow */
+}
+
+.subbloque {
+    font-size: 12px;
+    padding: 10px 21.3px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+/* bloque */
+.bloques {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.bloque {
+    border: 1px solid 0px 4px 4px rgba(68, 57, 70, 0.25);
+    width: 40%;
+    margin: 0 auto;
+    padding: 5px 12px;
+    padding-bottom: 12px;
+    box-shadow: 0px 4px 4px rgba(68, 57, 70, 0.25);
+}
+
+h3 {
+    font-size: 25px;
+}
+
+i {
+    display: block;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+        /* font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+
+}
+
+.Buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnsideright button {
+    font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btnsideright button, .btnsideright a {
+    margin-left: 10px;
+}
+
+/* formTitle */
+.form {
+    margin: 60px auto;
+    max-width: 430px;
+    padding: 20px;
+
+    background-color: #fff;
+    padding: 15px 25px;
+    color: #333;
+    border: 4px solid #49c1a2;
+    border-radius: 05px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input {
+    padding: 10px;
+    outline: 0;
+    font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input:focus, textarea:focus {
+    box-shadow: 1px 1px 1px 1px #37a08e;
+    border: none;
+    transition: 0.2s;
+}
+
+textarea {
+    outline: 0;
+    resize:none;
+    padding: 10px;
+    font-family: 'Roboto', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
